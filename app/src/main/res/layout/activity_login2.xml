@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context="com.demotxt.droidsrce.homedashboard.LoginActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkblue"
+        android:orientation="vertical"
+        android:padding="50dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Dynao"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle"
+                android:text="Learn more"
+                android:textColor="#fff" />
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle2"
+                android:text="Join the Club"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+
+            android:id="@+id/editText"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Username"
+            />
+
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            />
+        <Button
+            android:drawableRight="@drawable/ic_attach_money_black_24dp"
+            android:textColor="#fff"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="40dp"
+            android:text="Log in"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

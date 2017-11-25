@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demotxt.droidsrce.homedashboard.login"
+    >
+    <RelativeLayout
+        android:visibility="visible"
+        android:background="@drawable/bg31"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:alpha="0.9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#000000"/>
+    </RelativeLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+    <ImageView
+
+        android:layout_marginTop="100dp"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/ic_android_black_24dp"
+        />
+
+    <EditText
+
+        android:id="@+id/editText"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/gradienteditext"
+        android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="#fff"
+        android:hint="Username"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+        android:background="@drawable/gradienteditext"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:drawableTint="#fff"
+        />
+    <Button
+        android:drawableRight="@drawable/ic_attach_money_black_24dp"
+        android:textColor="#fff"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/gradienteditext"
+        android:layout_marginTop="40dp"
+        android:text="Log in"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </RelativeLayout>
